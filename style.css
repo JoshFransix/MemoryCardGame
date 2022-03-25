@@ -8,6 +8,20 @@ body {
   background: #002ad3;
 }
 
-img {
-  width: 100px;
+.memory-game {
+  width: 640px;
+  height: 640px;
+  display: flex;
+  border: 2px solid pink;
+}
+
+.memory-card {
+  border: 2px solid aqua;
+  width: 25%;
+  height: 33.33%;
+}
+
+.front-face,
+.back-face {
+  border: 2px solid deeppink;
 }
